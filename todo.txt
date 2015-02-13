@@ -1,0 +1,4 @@
+-remove colors from nav bar box at top
+-reduce title font to 39 and possition (-19,0,65)
+-grey search box, make i bigger
+-add horizontal line

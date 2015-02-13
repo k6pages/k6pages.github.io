@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>K6-Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+	    function initialize() {
+		    var mapProp = {
+				center:new google.maps.LatLng(50.901335,-1.405297),
+				zoom:15,
+				mapTypeId:google.maps.MapTypeId.ROADMAP
+				};
+			var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			var marker = new google.maps.Marker({  position: new google.maps.LatLng(50.901335, -1.405297),  map: map });
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+</head>
+
+
+<div class="container" style="backgroud:white">
+
+<div class="page-header" style="height: 788px;position: absolute;top: 17px;">
+  <a href="index.html"><h1 style="position: absolute;top: -29px;bottom: 0px;height:65px;font-size:47px;">K6 Gallery</h1> </a> 
+  <nav class="navbar navbar-default" style="width: 631px;top: 0px;right: -339px;padding-right: 0px;padding-left: 0px;font-size: 17px;">
+	  
+		    
+		    <div>
+			      <ul class="nav navbar-nav navbar-left">
+			        <li><a href="about.html">About</a></li>
+			        <li><a href="exhibitions.html">Exhibitions</a></li>
+			        <li><a href="news.html">News</a></li>
+			        <li><a href="support.html">Support</a></li>
+			        <li><a href="contact.html">Contact</a></li>
+			        
+			        <form class="navbar-form navbar-right" role="search">
+			        <div class="form-group" >
+			          <input type="text" class="form-control" style="background-image: url(images/mg2.png);background-repeat: no-repeat;background-position: 6px 9px;text-indent: 13px; width:200px;background-color: rgb(233, 233, 233);">
+			        </div>
+			        </form>
+			
+			      </ul>
+		    </div>
+	  
+  </nav>
+  
+<hr>    
+<div class="media pull-right">
+  <div class="media-body " style="color:grey">
+   <h3 style="font-size: 20px;">Current Exhibition</h3>
+  </div>
+  <div class="panel-footer" ><a href="exhibitions.html">Accidental Artists:<br>Modern Folk Art from Hampshire
+  <p>until 08/05/15</p></a></div>
+  <div class="media-body" style="color:grey">
+  <h3 style="font-size: 20px;">Next Exhibition</h3>
+  </div>
+  <div class="panel-footer"><a href="exhibitions.html">Brutalist:<br>Celebrating Southampton’s Modern Architecture 
+  <p>12/05/15 - 08/08/15</p></a></div>
+  
+ <div class="container" style="height: 84px;width: 245px;position: absolute;top: 628px;padding-left: 6px;padding-right: 8px;background: rgb(235, 236, 236);">
+  <h4>Signup to our newsletter</h4>
+	  	<form class="form-inline" role="form">
+		    <div class="form-group">
+		      <label for="email" class="sr-only">Email:</label>
+		      <input type="email" class="form-control" id="email" placeholder="Enter email" style="width: 230px;">
+		    </div>
+	    </form>
+  </div>
+  
+</div>
+
+<div class="col-lg-12 text-right v-center" style="width: 160px;position: absolute;top: 719px;right: 0px;padding-left: 0px;padding-right: 0px;">
+           <!--<a href="#"><span class="avatar"><i class="fa fa-twitter " style="font-size: 29px;"></i></span></a>
+           <a href="#"><span class="avatar"><i class="fa fa-facebook" style="font-size: 27px;"></i></span></a>-->
+           <img src="images/fb.png" hspace="0" style="width:40px;" >
+           <img src="images/tw.png" hspace="0" style="width:40px;" >            
+</div>
+
+
+
+<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+<div class="media" style="height:697px;width:713px;padding-right:30px;padding-top:30px;overflow:scroll">
+<h3>Contact:</h3>
+
+<body2>
+<br>
+<div id="googleMap" style="width:675px;height:250px;"></div>
+<br>
+<p>K6 Gallery is a proposed new exhibition space in the centre of Southampton. The space makes use of a pair of iconic grade II listed red phone boxes. Designed by architect Sir Giles Gilbert Scott in 1935. This was the sixth incarnation of the red phone box. They were a smaller and more streamlined version of the K2 model and were known as the K6 (kiosk number 6).</p>
+<p>The gallery will run a diverse programme of four exhibitions a year, engaging audiences by showcasing both local and national artists with a focus on contemporary and conceptual art.</p>
+<p>The gallery is run by a dedicated team of volunteers as a non-profit entity. Entrance is free.</p>
+</div>
+
+<div class="container" style="height: 110px;width: 958px;position: absolute;top: 788px;padding-left:756px;padding-right: 8px;background: rgb(157, 157, 157);">
+  <h6 style="color: rgb(230, 230, 230);">Supported by</h6>
+  <img alt="Bootstrap template" src="images/ideas0tap.png" style="width:60px;padding-top: 0px;" >
+  <img alt="Bootstrap template" src="images/council.png" style="width:60px;padding-top: 0px;" >
+  <img alt="Bootstrap template" src="images/aspace.png" style="width:60px;padding-top: 0px;" >
+</div>
+
+</body2>
+</html>
