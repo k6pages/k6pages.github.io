@@ -1,4 +1,8 @@
--remove colors from nav bar box at top
--reduce title font to 39 and possition (-19,0,65)
--grey search box, make i bigger
--add horizontal line
+======TODO======
+-nav bar: highlight current page item
+
+
+=======LOGS======
+23-03
+-made backup alexk6.v9
+-now implementing php templates so i can make changes to one or two files
